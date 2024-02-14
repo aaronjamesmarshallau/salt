@@ -49,9 +49,6 @@ export const Carousel = (props: PropsWithChildren<CarouselProps>) => {
       onTouchStart={onTouchStart}
       onTouchMove={onTouchMove}
       onTouchEnd={onTouchEnd}
-      style={{
-        left: carouselOffset.getOrElse(0),
-      }}
     >
       {children}
     </div>
