@@ -6,5 +6,4 @@ import io.ktor.client.request.*
 
 fun main() {
     val client = HttpClient(CIO)
-    HttpRequestBuilder.to()
 }
